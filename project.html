@@ -5,46 +5,58 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <script src="https://kit.fontawesome.com/32c224fcca.js" crossorigin="anonymous"></script>
     <style>
-      /* Center the main div box */
-      #main {
-        margin: 0 auto;
-        height: auto;
-        width: 50%;
-        padding: 20px;
-        border: 2px solid black;
-        background-color:white;
-      }
 
-      /* Style the buttons */
-      .button {
-        display: inline-block;
-        padding: 10px 20px;
-        margin: 10px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        cursor: pointer;
-        text-decoration: none;
-      }
-      
-      /* Style the button hover effect */
-      .button:hover {
-        background-color: #3e8e41;
-      }
+     /* Center the main div box */
+#main {
+  margin: 0 auto;
+  height: auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: white;
+}
 
-      @media screen and (max-width: 600px) {
-        #main {
-          width: 90%;
-        }
-      }
+/* Style the buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
 
+/* Style the button hover effect */
+.button:hover {
+  background-color: #3e8e41;
+}
 
+@media screen and (max-width: 768px) {
+  #main {
+    max-width: 90%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #main {
+    max-width: 90%;
+    padding: 10px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 5px;
+  }
+}
     </style>
   </head>
   <body style="background-color:black">
-    <div id="main" style="margin-top: 3%;">
+    <div id="main">
       <h1 style="text-align: center;">Python Backdoor Implementation for Secure Penetration Testing in Local Networks</h1>
       <p style="text-align: center; color: black;">Author:Yugendhar D | Rathinam college of arts and science | <a href="https://yugi71120.github.io/Portfolio/">yugi71120.github.io</a></p>
       <h2>Abstract</h2>

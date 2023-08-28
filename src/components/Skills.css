@@ -1,0 +1,224 @@
+/* .skills-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Orbitron';
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bolder;
+  font-family: 'Orbitron';
+  margin-right: 55%;
+  display: inline-flex;
+  align-items: baseline;  
+  color: inherit;
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 5px 10px; 
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  border-radius: 5px;
+}
+
+.skill-bar {
+  width: 60%;
+  height: 20px;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+}
+.skill-level {
+  height: 20px;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .skill-name {
+      font-size: 0.8rem;
+  }
+
+  .skill-bar {
+    width: 90%;
+      height: 15px;
+  }
+
+  .skill-level {
+      height: 15px;
+  }
+} */
+.skills-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Orbitron';
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  font-weight: bolder;
+  font-family: 'Orbitron';
+  margin-right: 55%;
+  display: inline-flex;
+  align-items: baseline;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 5px 10px;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  border-radius: 5px;
+}
+
+.skill-bar {
+  width: 60%;
+  height: 20px;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+}
+
+.skill-level {
+  height: 20px;
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+  border-radius: 5px;
+}
+
+.programming-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; /* Add transition for smooth effect */
+  margin-bottom: 20px;
+}
+
+.programming-icon:hover {
+  transform: scale(1.4);
+}
+
+.icons-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .skill-name {
+    font-size: 0.8rem;
+  }
+
+  .skill-bar {
+    width: 90%;
+    height: 15px;
+  }
+
+  .skill-level {
+    height: 15px;
+  }
+
+  .programming-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Hover scale effect for small screens */
+  .programming-icon:hover {
+    transform: scale(1.4); /* Scales the image by 5% on small screens */
+  }
+}
+/* Skills.css */
+
+/* Existing skill section styles */
+
+/* Timeline section styles */
+.timeline-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.timeline {
+  position: relative;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.timeline-event {
+  position: relative;
+  padding: 20px;
+  border-left: 2px solid #406aff;
+  margin-bottom: 20px;
+}
+
+.event-date {
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.event-content {
+  margin-left: 40px;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+  .timeline-event {
+    padding: 15px;
+  }
+}
